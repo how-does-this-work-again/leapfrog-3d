@@ -1,12 +1,25 @@
 [gd_scene format=3 uid="uid://b01idple5vwhj"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_khs6n"]
-size = Vector3(8.175034, 1, 8.707794)
+[sub_resource type="BoxShape3D" id="BoxShape3D_wjn3k"]
+size = Vector3(50, 2, 50)
+
+[sub_resource type="BoxMesh" id="BoxMesh_khs6n"]
+size = Vector3(100, 4, 100)
 
 [node name="Main" type="Node" unique_id=836898434]
 
 [node name="Ground" type="StaticBody3D" parent="." unique_id=1743547902]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Ground" unique_id=1352508408]
 transform = Transform3D(1.9999118, 0, -0.018785484, 0, 2, 0, 0.018785484, 0, 1.9999118, 0, 0, -0.004)
-shape = SubResource("BoxShape3D_khs6n")
+shape = SubResource("BoxShape3D_wjn3k")
+debug_color = Color(0.5176471, 0.46666667, 0.8745098, 0.7921569)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=409047349]
+transform = Transform3D(-0.009064659, 0, -0.99995893, 0, 1, 0, 0.99995893, 0, -0.009064659, 0, 0, 0)
+mesh = SubResource("BoxMesh_khs6n")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1579861941]
+transform = Transform3D(1, 0, 0, 0, 0.258819, 0.9659258, 0, -0.9659258, 0.258819, 0, 27.615421, 0)
+shadow_enabled = true
