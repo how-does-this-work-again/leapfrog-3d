@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://dj4x43ygew0kr"]
+
+[ext_resource type="Texture2D" uid="uid://d0a1n02hywkr0" path="res://art/credits_v2.png" id="1_0bpdh"]
+[ext_resource type="Texture2D" uid="uid://b2b73fequo12w" path="res://art/back_button.png" id="2_0ctdu"]
+[ext_resource type="Script" uid="uid://lycjecfc0ahm" path="res://scripts/credits_art.gd" id="2_2fbfq"]
+[ext_resource type="Script" uid="uid://ckiwly2kwnv5r" path="res://scripts/back_button.gd" id="3_0ctdu"]
+
+[node name="CreditsScreen" type="Node2D" unique_id=1568461944]
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=988856127]
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 1142.0
+offset_bottom = 638.0
+
+[node name="CreditsArt" type="TextureRect" parent="MarginContainer" unique_id=807076076]
+layout_mode = 2
+texture = ExtResource("1_0bpdh")
+script = ExtResource("2_2fbfq")
+
+[node name="BackCenterContainer" type="CenterContainer" parent="MarginContainer" unique_id=464242367]
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(-366, -185)
+offset_transform_visual_only = false
+
+[node name="BackButton" type="TextureRect" parent="MarginContainer/BackCenterContainer" unique_id=176289890]
+unique_name_in_owner = true
+layout_mode = 2
+texture = ExtResource("2_0ctdu")
+script = ExtResource("3_0ctdu")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="MarginContainer" unique_id=812865850]

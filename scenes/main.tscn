@@ -1,0 +1,88 @@
+[gd_scene format=3 uid="uid://b01idple5vwhj"]
+
+[ext_resource type="Texture2D" uid="uid://dxaeoeswkwk64" path="res://art/artv2.png" id="1_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://c4qlqo706wbbd" path="res://art/start_button.png" id="2_tbgi4"]
+[ext_resource type="Script" uid="uid://bunh3rjr5jncq" path="res://scripts/art.gd" id="2_tefeu"]
+[ext_resource type="Script" uid="uid://5do7ktdsyhvc" path="res://scripts/start_button.gd" id="3_tbgi4"]
+[ext_resource type="Texture2D" uid="uid://b2ycfa2jvk7h1" path="res://art/credits_button.png" id="4_o6xl0"]
+[ext_resource type="Script" uid="uid://whnerm7r5qx2" path="res://scripts/credits_button.gd" id="5_tefeu"]
+
+[sub_resource type="GDScript" id="GDScript_h2yge"]
+script/source = "extends Node2D
+
+#@onready var StartButton = $MarginContainer/StartButton
+#
+#func _input(event):
+	#print(StartButton.get_size())
+	#if event is InputEventMouseButton and event.pressed and event.button_index == MOUSE_BUTTON_LEFT:
+		## Check if the click is within the texture's rect
+		#var texture_rect = Rect2(global_position, StartButton.get_size())
+		#if texture_rect.has_point(get_global_mouse_position()):
+			#print(\"Texture was clicked!\")
+"
+
+[node name="StartScreen" type="Node2D" unique_id=264531924]
+script = SubResource("GDScript_h2yge")
+
+[node name="MarginContainer" type="MarginContainer" parent="." unique_id=2077861125]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -855.0
+offset_top = -444.0
+offset_right = 855.0
+offset_bottom = 444.0
+grow_horizontal = 2
+grow_vertical = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(576, 324)
+offset_transform_scale = Vector2(0.9, 0.9)
+offset_transform_visual_only = false
+theme_override_constants/margin_left = 120
+theme_override_constants/margin_top = 80
+theme_override_constants/margin_right = 120
+theme_override_constants/margin_bottom = 80
+
+[node name="Art" type="TextureRect" parent="MarginContainer" unique_id=744795067]
+unique_name_in_owner = true
+custom_maximum_size = Vector2(4410, 3640)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+texture = ExtResource("1_jyhfs")
+script = ExtResource("2_tefeu")
+
+[node name="ArtCenterContainer" type="CenterContainer" parent="MarginContainer" unique_id=969751805]
+visible = false
+layout_mode = 2
+
+[node name="StartCenterContainer" type="CenterContainer" parent="MarginContainer" unique_id=65066136]
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_position_ratio = Vector2(0.2, -0.1)
+offset_transform_visual_only = false
+mouse_filter = 2
+
+[node name="StartButton" type="TextureRect" parent="MarginContainer/StartCenterContainer" unique_id=264891356]
+unique_name_in_owner = true
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_pivot = Vector2(156.5, 101)
+texture = ExtResource("2_tbgi4")
+stretch_mode = 5
+script = ExtResource("3_tbgi4")
+
+[node name="CredsCenterContainer" type="CenterContainer" parent="MarginContainer" unique_id=4454333]
+layout_mode = 2
+offset_transform_enabled = true
+offset_transform_position = Vector2(-125, 150)
+offset_transform_visual_only = false
+mouse_filter = 2
+
+[node name="CreditsButton" type="TextureRect" parent="MarginContainer/CredsCenterContainer" unique_id=812945505]
+unique_name_in_owner = true
+custom_maximum_size = Vector2(4410, -1)
+layout_mode = 2
+offset_transform_enabled = true
+texture = ExtResource("4_o6xl0")
+script = ExtResource("5_tefeu")

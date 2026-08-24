@@ -1,8 +1,8 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1783003058
+::res://::1787531565
+blue_material.tres::StandardMaterial3D::9199811433733263665::1785807361::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::4488595240159299549::1782969377::1782969953::1::::<><><>0<>0<>4014ec94a85e8bd06a618760b1a15823<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-main.tscn::PackedScene::4195307494639094807::1783001838::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1782969206::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1783004513::0::1::::<><><>0<>0<><>::
 ::res://addons/::1782972250
 ::res://addons/godot_super-wakatime/::1782973307
 api_key_prompt.tscn::PackedScene::3919262858641749045::1782971093::0::1::::<><><>0<>0<><>::
@@ -12,5 +12,42 @@ godot_super-wakatime.gd::GDScript::6277149880384411866::1782971093::0::1::::<>Ed
 plugin.cfg::TextFile::-1::1782973307::0::1::::<><><>0<>0<><>::
 README.md::TextFile::-1::1782971093::0::1::::<><><>0<>0<><>::
 utils.gd::GDScript::5251015809120159908::1782971093::0::1::::<>RefCounted<><>0<>0<><>::
-::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/::1782972254
+::res://art/::1787204395
+art.png::CompressedTexture2D::1194938433345456565::1787163134::1787163134::1::::<><><>0<>0<>eb057422b67a9c15419a78fa075a77a4<>res://.godot/imported/art.png-ef7b4eb25f68b74fde8960901e6454b0.ctex::
+artv2.png::CompressedTexture2D::8773873562753482483::1787163130::1787163130::1::::<><><>0<>0<>521c6e44ab316c70f1515e3690502a8d<>res://.godot/imported/artv2.png-294124d0b2ac2c4e4e14e669276c2069.ctex::
+background.png::CompressedTexture2D::2644282328504760476::1787099495::1787100330::1::::<><><>0<>0<>cae2f9ef928e2ebbd4530e3f6b7a245a<>res://.godot/imported/background.png-694afb2807fe739c9f0954541e14cf0b.ctex::
+back_button.png::CompressedTexture2D::4285577055222142276::1787204392::1787204392::1::::<><><>0<>0<>49832b87546460a2ec285774600a117f<>res://.godot/imported/back_button.png-0b1b5c6c170cc5af0845c8e86a2bd626.ctex::
+credits_button.png::CompressedTexture2D::4331194933119598856::1787163352::1787163353::1::::<><><>0<>0<>0be7da41bff2c4015036060981b84bec<>res://.godot/imported/credits_button.png-71ae0430cbd6bbfbb4effc1ca74f85d9.ctex::
+credits_v1.png::CompressedTexture2D::1165560921349716765::1787202477::1787202478::1::::<><><>0<>0<>0764bd7e17b10643082dba6c5c4b885b<>res://.godot/imported/credits_v1.png-14283de7a06e8357b137971b9b5f49df.ctex::
+credits_v2.png::CompressedTexture2D::8915586354307274195::1787204092::1787204093::1::::<><><>0<>0<>81123aa44d98de3d9ae604758469c103<>res://.godot/imported/credits_v2.png-a278641161e74b51f6ea1b9abdde8dec.ctex::
+start_button.png::CompressedTexture2D::6842045122515828329::1787117122::1787117122::1::::<><><>0<>0<>2a0ca034ef512dec9689ce46f5ef9921<>res://.godot/imported/start_button.png-62672dfa25b79e613c8122fe3ed811e6.ctex::
+title.png::CompressedTexture2D::3558491086308427049::1787099495::1787100345::1::::<><><>0<>0<>5ed9a3d71e82e71401e8f97abc576c70<>res://.godot/imported/title.png-588380b5314708db3db67e34bfcdd5f4.ctex::
+::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/::1783051054
+frog!.glb::PackedScene::1479089495992241653::1783050692::1783050986::1::::<><><>0<>0<>08a4e1197f3a64ec3f1deb83eb807f83<>res://.godot/imported/frog!.glb-444945b79544943427f5b5bd3c168437.scn::uid://desglhgysvanl::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/frog!_0.png<>uid://cec2fdw152pob::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/frog!_1.png<>uid://dwe5j5nakwr0v::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/frog!_2.png<>uid://b30sp0rvxs05f::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/frog!_3.png
+frog!_0.png::CompressedTexture2D::7477560548941668877::1783050693::1783050697::1::::<><><>0<>0<>36361ed6c6160b4b8352adf6e8d19dfc<>res://.godot/imported/frog!_0.png-d286a56a62ad42bdf10fdd00372cf7cb.s3tc.ctex::
+frog!_1.png::CompressedTexture2D::5059373977998907921::1783050693::1783050697::1::::<><><>0<>0<>19f26101c0d3e5587680f7c67a582cda<>res://.godot/imported/frog!_1.png-8aff622a5f71fefffb2e97c17484638a.s3tc.ctex::
+frog!_2.png::CompressedTexture2D::8713513299857603003::1783050693::1783050697::1::::<><><>0<>0<>fb6d6cb4d4e8c96c812cecacb0f2a101<>res://.godot/imported/frog!_2.png-0ba2bd0a9448e8b59f9bbded6b85f891.s3tc.ctex::
+frog!_3.png::CompressedTexture2D::4404438782518917701::1783050693::1783050697::1::::<><><>0<>0<>32d40cb7c8da9e71a7b5725ecee1b403<>res://.godot/imported/frog!_3.png-0a061b41c74ee6f91511d55bf7065147.s3tc.ctex::
+jumping frog.glb::PackedScene::1725244105507709680::1783050810::1783051046::1::::<><><>0<>0<>b214f80cd01a841127d48752f9c7c3a9<>res://.godot/imported/jumping frog.glb-4f8e82585dff315e1e433ddf45c3a857.scn::uid://cd73eqnenwvwr::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/jumping frog_0.png<>uid://cdop647ise3ne::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/jumping frog_1.png<>uid://bxm48vhbhoaw0::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/jumping frog_2.png<>uid://dluok43ngm8d5::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/jumping frog_3.png
+jumping frog_0.png::CompressedTexture2D::5051176066059356177::1783050810::1783050812::1::::<><><>0<>0<>8052b3a6392cb935fb75177d263f24a4<>res://.godot/imported/jumping frog_0.png-0e4ab04a0620d70310aaa9228f1e3860.s3tc.ctex::
+jumping frog_1.png::CompressedTexture2D::5013276874358307822::1783050811::1783050812::1::::<><><>0<>0<>578a306bff7d800e7fd8e8bf9f4512ef<>res://.godot/imported/jumping frog_1.png-35c704666b0494c96a73e654612e83d2.s3tc.ctex::
+jumping frog_2.png::CompressedTexture2D::4027357458264976965::1783050811::1783050812::1::::<><><>0<>0<>41165874d6b0bcd2d11cee57e550eb0a<>res://.godot/imported/jumping frog_2.png-0ffb0a9fc54d4301e35e64842929446c.s3tc.ctex::
+jumping frog_3.png::CompressedTexture2D::7973496349047500648::1783050811::1783050812::1::::<><><>0<>0<>869692071a672dcf187054eb3faae034<>res://.godot/imported/jumping frog_3.png-9fb7bfda85d08bc9176f15ae9c94433c.s3tc.ctex::
 README.md::TextFile::-1::1782971093::0::1::::<><><>0<>0<><>::
+::res://scenes/::1787525825
+credits.tscn::PackedScene::7852278385554160633::1787241139::0::1::::<><><>0<>0<><>::uid://d0a1n02hywkr0::::res://art/credits_v2.png<>uid://b2b73fequo12w::::res://art/back_button.png<>uid://lycjecfc0ahm::::res://scripts/credits_art.gd<>uid://ckiwly2kwnv5r::::res://scripts/back_button.gd
+main.tscn::PackedScene::4195307494639094807::1787525765::0::1::::<><><>0<>0<><>::uid://dxaeoeswkwk64::::res://art/artv2.png<>uid://c4qlqo706wbbd::::res://art/start_button.png<>uid://bunh3rjr5jncq::::res://scripts/art.gd<>uid://5do7ktdsyhvc::::res://scripts/start_button.gd<>uid://b2ycfa2jvk7h1::::res://art/credits_button.png<>uid://whnerm7r5qx2::::res://scripts/credits_button.gd
+player.tscn::PackedScene::1472503701199603567::1787244437::0::1::::<><><>0<>0<><>::uid://banvy86onvp4r::::res://scripts/player.gd<>uid://ytyrvhqkr6h5::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/jumping frog.glb<>uid://vcqngocqumc8::::res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f/frog!.glb<>uid://c1o2siap612mc::::res://scripts/camera_3d.gd
+test_scene.tscn::PackedScene::3067802157389263632::1787525822::0::1::::<><><>0<>0<><>::uid://xcuw8uua751j::::res://scripts/main.gd<>uid://d4cpsybh3ljvl::::res://blue_material.tres<>uid://u8j6kqbj5ral::::res://scenes/player.tscn
+::res://scripts/::1787525769
+art.gd::GDScript::3817510396048281488::1787524359::0::1::::<>TextureRect<><>0<>0<><>::
+back_button.gd::GDScript::5492601546127232809::1787524113::0::1::::<>ButtonAnimation<><>0<>0<><>::
+buttons.gd::GDScript::598049565204551758::1787523854::0::1::::ButtonAnimation<>TextureRect<><>0<>0<><>::
+camera_3d.gd::GDScript::6628324514537676070::1787525764::0::1::::<>Camera3D<><>0<>0<><>::
+credits_art.gd::GDScript::821760065660309890::1787524113::0::1::::<>TextureRect<><>0<>0<><>::
+credits_button.gd::GDScript::1559402581309169641::1787524113::0::1::::<>ButtonAnimation<><>0<>0<><>::
+global_events.gd::GDScript::5510177893818879338::1787524113::0::1::::<>Node2D<><>0<>0<><>::
+main.gd::GDScript::1619727551580746229::1787275082::0::1::::<>Node<><>0<>0<><>::
+player.gd::GDScript::2414577292211495071::1787525764::0::1::::<>CharacterBody3D<><>0<>0<><>::
+scene_manager.gd::GDScript::6432191117863831830::1787525765::0::1::::<>Node<><>0<>0<><>::
+start_button.gd::GDScript::2112766180452935784::1787525765::0::1::::<>ButtonAnimation<><>0<>0<><>::
