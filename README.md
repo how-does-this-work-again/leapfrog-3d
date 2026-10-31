@@ -14,7 +14,21 @@ after it loads, you should see a start screen like this:
 
 then click start to play (or click the credits button for a fun animation i spent hours on)!
 
-hope you enjoy my silly little half-baked frog game :p
+i would also like to clarify that this is a huge work in progress and lots of features (like getting to the main screen from the game screen..) are missing 😭
+
+anyway hope you enjoy my silly little half-baked frog game :p
+
+# controls
+
+left arrow: turn left 90 degrees
+
+right arrow: turn right 90 degrees
+
+a: shift left
+
+d: shift right
+
+up arrow: jump
 
 # credits
 made with godot!
