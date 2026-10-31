@@ -10,7 +10,7 @@ to play, go [here](https://how-does-this-work-again.github.io/leapfrog-3d/), or 
 
 after it loads, you should see a start screen like this:
 
-![start screen](startscreen.jpg)
+![start screen](startscreen.png)
 
 then click start to play (or click the credits button for a fun animation i spent hours on)!
 
