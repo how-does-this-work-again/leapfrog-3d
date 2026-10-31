@@ -7,10 +7,17 @@
 size = Vector3(100, 2, 100)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qd2s7"]
+albedo_color = Color(0.9411765, 0.95686275, 0.7176471, 1)
 
 [sub_resource type="BoxMesh" id="BoxMesh_khs6n"]
 material = SubResource("StandardMaterial3D_qd2s7")
 size = Vector3(200, 4, 200)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_onhis"]
+albedo_color = Color(1, 0.7411765, 1, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2cfad"]
+albedo_color = Color(0.6745098, 1, 1, 1)
 
 [node name="Main" type="Node" unique_id=836898434]
 script = ExtResource("1_feb8i")
@@ -28,6 +35,26 @@ debug_color = Color(0.5176471, 0.46666667, 0.8745098, 0.7921569)
 [node name="MeshInstance3D" type="MeshInstance3D" parent="Ground" unique_id=409047349]
 transform = Transform3D(-0.009064659, 0, -0.99995893, 0, 1, 0, 0.99995893, 0, -0.009064659, -0.00475502, -0.03554821, 0.038627148)
 mesh = SubResource("BoxMesh_khs6n")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Ground" unique_id=1097666353]
+transform = Transform3D(1.1999471, 0, -0.0112712905, 0, 1.2, 0, 0.0112712905, 0, 1.1999471, 96.579765, 60.57773, 38.339214)
+shape = SubResource("BoxShape3D_wjn3k")
+debug_color = Color(0.5176471, 0.46666667, 0.8745098, 0.7921569)
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Ground" unique_id=255751493]
+transform = Transform3D(-0.0054388284, 0, -0.5999754, 0, 0.6, 0, 0.5999754, 0, -0.0054388284, 96.57501, 60.542183, 38.381844)
+mesh = SubResource("BoxMesh_khs6n")
+surface_material_override/0 = SubResource("StandardMaterial3D_onhis")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="Ground" unique_id=193242307]
+transform = Transform3D(0.9999559, 0, -0.009392742, 0, 1, 0, 0.009392742, 0, 0.9999559, -66.4998, 27.665474, -31.3015)
+shape = SubResource("BoxShape3D_wjn3k")
+debug_color = Color(0.5176471, 0.46666667, 0.8745098, 0.7921569)
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Ground" unique_id=1342264402]
+transform = Transform3D(-0.0045323567, 0, -0.49997947, 0, 0.5, 0, 0.49997947, 0, -0.0045323567, -66.504555, 27.629925, -31.258873)
+mesh = SubResource("BoxMesh_khs6n")
+surface_material_override/0 = SubResource("StandardMaterial3D_2cfad")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1579861941]
 transform = Transform3D(1, 0, 0, 0, -0.058607176, 0.9982811, 0, -0.9982811, -0.058607176, 0, 32.364086, -0.2787851)
